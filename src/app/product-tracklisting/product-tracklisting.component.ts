@@ -1,6 +1,8 @@
 import { Component, OnInit } from "@angular/core";
 import { Album } from "../album";
 import { ProductService } from "app/product.service";
+import { Track } from "../track";
+import { AlbumStorePage } from "../../../e2e/app.po";
 
 @Component({
   selector: "app-product-tracklisting",
